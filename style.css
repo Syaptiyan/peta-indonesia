@@ -28,6 +28,13 @@
 .footer-social { width:36px; height:36px; border-radius:10px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.06); display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.5); font-size:.85rem; transition:all .2s; }
 .footer-social:hover { background:rgba(16,185,129,0.15); border-color:#10b981; color:#10b981; transform:translateY(-2px); }
 
-::-webkit-scrollbar { width:6px; }
-::-webkit-scrollbar-track { background:transparent; }
-::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:3px; }
+::-webkit-scrollbar { width:8px; }
+::-webkit-scrollbar-track { background:rgba(255,255,255,0.02); border-radius:4px; }
+::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.15); border-radius:4px; }
+::-webkit-scrollbar-thumb:hover { background:rgba(255,255,255,0.25); }
+
+/* MODAL SCROLLBAR */
+.modal-scroll::-webkit-scrollbar { width:6px; }
+.modal-scroll::-webkit-scrollbar-track { background:transparent; }
+.modal-scroll::-webkit-scrollbar-thumb { background:rgba(16,185,129,0.3); border-radius:3px; }
+.modal-scroll::-webkit-scrollbar-thumb:hover { background:rgba(16,185,129,0.5); }
